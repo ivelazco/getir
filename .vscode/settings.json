@@ -1,0 +1,12 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.startupEditor": "none",
+    "prettier.requireConfig": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  
+    "files.autoSaveDelay": 500
+  }
+  

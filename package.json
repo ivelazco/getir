@@ -1,0 +1,31 @@
+{
+  "name": "getir-api",
+  "version": "1.0.0",
+  "description": "Resolution to the challenge propposed by getir",
+  "main": "server.js",
+  "author": "ivelazco",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "start:dev": "nodemon -r esm server.js",
+    "format:write": "prettier --write ."
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
