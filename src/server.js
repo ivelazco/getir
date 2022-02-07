@@ -5,8 +5,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import helmet from 'helmet';
-import { searchHandler, searchSchema } from './src/search';
-import { withYupValidator, withErrorHandler } from './src/middlewares';
+import { searchHandler, searchSchema } from './search';
+import { withYupValidator, withErrorHandler } from './middlewares';
 
 // defining the Express app
 const app = express();
