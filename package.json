@@ -12,7 +12,7 @@
     "clean": "rm -rf build && mkdir build",
     "build": "yarn clean && yarn build-babel",
     "prod": "webpack --mode production",
-    "start": "yarn build && node ./build/server.js",
+    "start": "node ./build/server.js",
     "build-babel": "babel src/ -d ./build",
     "start:dev": "nodemon  --watch src --exec yarn start",
     "format:write": "prettier --write ."
