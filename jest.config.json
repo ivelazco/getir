@@ -1,0 +1,7 @@
+{
+    "moduleFileExtensions": [
+        "js"
+    ],
+    "transform": {},
+    "testRegex": "((\\.|/*.)(test))\\.js?$"
+}

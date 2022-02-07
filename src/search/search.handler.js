@@ -12,7 +12,7 @@ const log = logger('search-endpoint');
  * @param {string} endDate The maximum `createdAt` date to search.
  * @param {number} minCount The minimum `totalCount` (the sum of counts array) number to search.
  * @param {number} maxCount The maximum `totalCount` (the sum of counts array) number to search.
- * @returns {Array<{key: string, createdAt: string, totalCount: number}>} the results that match with the filters.
+ * @returns {Array<{key: string, createdAt: string, totalCount: number}>} the results that match with the filtes
  */
 async function getFilteredRecords({ startDate, endDate, minCount, maxCount }) {
     const db = await getMongoDBDatabase();
