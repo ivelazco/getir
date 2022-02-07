@@ -1,12 +1,12 @@
+/* eslint-disable import/first */
 // importing the dependencies
-import { config } from 'dotenv';
+import {} from 'dotenv/config';
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import helmet from 'helmet';
 import { searchHandler, searchSchema } from './src/search';
 import { withYupValidator, withErrorHandler } from './src/middlewares';
-config();
 
 // defining the Express app
 const app = express();

@@ -17,3 +17,8 @@ My solution to the backend test provided by Getir.
 -   Tp start the project run `yarn start` ( it will use node ) or `yarn start:dev` ( it will use nodemon )
 
 ## Aclarations/Comments
+
+Response codes
+0: Success, all goes wells.
+1: There is a validation error on the request.
+2: Unexpected error appears.

@@ -17,6 +17,7 @@
     "esm": "^3.2.25",
     "express": "^4.17.2",
     "helmet": "^5.0.2",
+    "mongodb": "^4.3.1",
     "yup": "^0.32.11"
   },
   "devDependencies": {

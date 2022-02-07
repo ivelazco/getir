@@ -5,7 +5,11 @@ const withYupValidator = (resourceSchema) => async (req, res, next) => {
         await resourceSchema.validate(resource);
         next();
     } catch (e) {
-        res.status(400).json({ error: e.errors.join(', ') });
+        res.status(400).json({
+            code: 1,
+            msg: 'Error on request',
+            error: e.errors.join(', '),
+        });
     }
 };
 
